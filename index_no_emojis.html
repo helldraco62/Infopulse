@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Study Pulse</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: black;
+      color: lime;
+      font-family: monospace;
+      font-size: 20px;
+      line-height: 1.6;
+      overflow: hidden;
+    }
+    .container {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+    }
+    .scrolling-text {
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+      width: 90%;
+    }
+    .text {
+      position: absolute;
+      top: 100%;
+      animation: scrollUp 60s linear infinite;
+      white-space: pre-wrap;
+    }
+    @keyframes scrollUp {
+      0% { top: 100%; }
+      100% { top: -100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="scrolling-text">
+      <div class="text">
+Study Tips for Success
+
+1. Create a Schedule:
+   Break study time into focused sessions with breaks.
+
+2. Use Active Recall:
+   Instead of reading, test yourself regularly.
+
+3. Summarize Notes:
+   Rewrite in your own words to understand better.
+
+4. Avoid Multitasking:
+   Focus on one subject at a time.
+
+5. Block Distractions:
+   Use apps like Forest or turn on DND mode.
+
+6. Teach Others:
+   If you can explain it, you’ve learned it.
+
+7. Use Spaced Repetition:
+   Review older topics daily.
+
+8. Try Focus Music:
+   Lo-fi or instrumental music boosts concentration.
+
+9. Sleep Well:
+   Memory gets stored while you rest.
+
+10. Stay Calm:
+    Breathe, relax, and keep learning fun.
+
+Repeat. Improve. Achieve.
+
+— StudyPulse
+      </div>
+    </div>
+  </div>
+</body>
+</html>
